@@ -11,6 +11,7 @@ function login(username, password) {
 console.log(login("admin", "password123")); // Output: Login successful!
 console.log(login("user", "wrongpassword")); // Output: Invalid username or password.
 
+//Funcion de registro
 function register(username, password) {
     // Simulate a registration process
     if (username && password) {
